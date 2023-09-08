@@ -4,7 +4,7 @@
 ***E-mail***: 2011832@mail.nankai.edu.cn
 
 ## About this program
-This project is my final assignment for the course "Artificial Intelligence Technology" during my junior year at Nankai University.It is used to classify whether a given human lung X-ray image is diseased or not. I built a CNN by Pytorch to deal with this problem and it works well in this [dataset](https://drive.google.com/file/d/15DMIblTJiV5QB8pdA7L0bccnXL7gBAg7/view?usp=sharing). After only 100 epochs training, it achieves 88% accuracy in validation dataset and 75% accuracy in test dataset. I also plot the "**train and val loss**" curve and test-results images.
+This project is my final assignment for the course "Artificial Intelligence Technology" during my junior year at Nankai University.It is used to classify whether a given human lung X-ray image is diseased or not. I built a CNN by Pytorch to deal with this problem and it works well in this [dataset](https://drive.google.com/file/d/15DMIblTJiV5QB8pdA7L0bccnXL7gBAg7/view?usp=sharing) (please download it in```./chest_xray```). After only 100 epochs training, it achieves 88% accuracy in validation dataset and 75% accuracy in test dataset. I also plot the "**train and val loss**" curve and test-results images.
 
 ## Requirements
 1. Create a [conda](https://www.anaconda.com) environment by running this command(replace YOUR_ENV_NAME):
